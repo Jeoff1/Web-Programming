@@ -28,7 +28,7 @@
         $no = 0;
         foreach($products as $p){
         $no++;
-        $lowstock = ($p["stock"] < 10) ? "style='background-color: red; color: white;'": ""
+        $lowstock = ($p["stock"] < 10) ? "style='color: red;'": ""
     ?>
         <tr <?= $lowstock ?>>
             <td><?= $no?></td>
@@ -42,4 +42,5 @@
 </table>
     
 </body>
+
 </html>
