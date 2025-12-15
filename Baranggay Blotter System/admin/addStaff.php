@@ -67,45 +67,76 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Admin</title>
+    <link rel="stylesheet" href="../blotters/style.css">
     <style>
     label {display:block;}
     span, .error {color: red; margin: 0;}
     </style>
 </head>
 <body>
-    <h1>Add Admin</h1>
+    <div class="app-shell">
 
-    <form action="" method="POST">
-        <label for=""><h6>Field with <span>*</span> is required</h6></label><br>
+        <header class="header card">
+            <div class="brand">
+                <div class="logo">BB</div>
+                <h1>Add Admin</h1>
+            </div>
+            <div class="nav-actions">
+                <a class="btn secondary" href="../index.php">Back</a>
+                <a class="btn" href="../account/login.php">Log In</a>
+            </div>
+        </header>
 
-        <label for="firstname">First Name <span>*</span></label>
-            <input type="text" name="firstname" id="firstname" value="<?=$admin["firstname"] ?? "" ?>">
-            <p class="error"><?=$errors["firstname"] ?? "" ?></p>
-        
-        <label for="lastname">Last Name<span>*</span></label>
-            <input type="text" name="lastname" id="lastname" value="<?=$admin["lastname"] ?? "" ?>">
-            <p class="error"><?=$errors["lastname"] ?? "" ?></p>
+        <main class="card container">
+            <form action="" method="POST">
+                <label for=""><h6>Fields with <span>*</span> are required</h6></label>
 
-        <label for="username">Username<span>*</span></label>
-            <input type="text" name="username" id="username" value="<?=$admin["username"] ?? "" ?>">
-            <p class="error"><?=$errors["username"] ?? "" ?></p>
+                <div class="form-row">
+                    <label for="firstname">First Name <span>*</span></label>
+                    <input type="text" name="firstname" id="firstname" value="<?=$admin["firstname"] ?? "" ?>">
+                    <p class="error"><?=$errors["firstname"] ?? "" ?></p>
+                </div>
 
-        <label for="password">Password<span>*</span></label>
-            <input type="text" name="password" id="password" value="<?=$admin["password"] ?? "" ?>">
-            <p class="error"><?=$errors["password"] ?? "" ?></p> <br><br>
+                <div class="form-row">
+                    <label for="lastname">Last Name <span>*</span></label>
+                    <input type="text" name="lastname" id="lastname" value="<?=$admin["lastname"] ?? "" ?>">
+                    <p class="error"><?=$errors["lastname"] ?? "" ?></p>
+                </div>
 
-        <label for="role">Role <span>*</span></label>
-            <input type="radio" name="role" value="Admin" <?php if (isset($admin["role"]) && $admin["role"] == "Admin") echo "checked"; ?>> Admin
-            <input type="radio" name="role" value="Staff" <?php if (isset($admin["role"]) && $admin["role"] == "Staff") echo "checked"; ?>> Staff
-            <p class="error"><?=$errors["role"] ?? "" ?></p><br>
-        
-        <label for="is_active">Is Active<span>*</span></label>
-        <input type="radio" name="is_active" value="1" <?php if (isset($admin["is_active"]) && $admin["is_active"] == "1") echo "checked"; ?>> Yes
-        <input type="radio" name="is_active" value="0" <?php if (isset($admin["is_active"]) && $admin["is_active"] == "0") echo "checked"; ?>> No  
-        <p class="error"><?=$errors["is_active"] ?? "" ?></p> <br><br>
+                <div class="form-row">
+                    <label for="username">Username <span>*</span></label>
+                    <input type="text" name="username" id="username" value="<?=$admin["username"] ?? "" ?>">
+                    <p class="error"><?=$errors["username"] ?? "" ?></p>
+                </div>
 
-        <input type="submit" value="Save Admin"><span><button type="button"><a href="../account/login.php">Log In</a></button></span><span><button type="button"><a href="../index.php">Back</a></button></span>
+                <div class="form-row">
+                    <label for="password">Password <span>*</span></label>
+                    <input type="text" name="password" id="password" value="<?=$admin["password"] ?? "" ?>">
+                    <p class="error"><?=$errors["password"] ?? "" ?></p>
+                </div>
 
-    </form>
+                <div class="form-row">
+                    <label for="role">Role <span>*</span></label>
+                    <label><input type="radio" name="role" value="Admin" <?php if (isset($admin["role"]) && $admin["role"] == "Admin") echo "checked"; ?>> Admin</label>
+                    <label><input type="radio" name="role" value="Staff" <?php if (isset($admin["role"]) && $admin["role"] == "Staff") echo "checked"; ?>> Staff</label>
+                    <p class="error"><?=$errors["role"] ?? "" ?></p>
+                </div>
+
+                <div class="form-row">
+                    <label for="is_active">Is Active <span>*</span></label>
+                    <label><input type="radio" name="is_active" value="1" <?php if (isset($admin["is_active"]) && $admin["is_active"] == "1") echo "checked"; ?>> Yes</label>
+                    <label><input type="radio" name="is_active" value="0" <?php if (isset($admin["is_active"]) && $admin["is_active"] == "0") echo "checked"; ?>> No</label>
+                    <p class="error"><?=$errors["is_active"] ?? "" ?></p>
+                </div>
+
+                <div class="actions" style="margin-top:12px;">
+                    <input type="submit" value="Save Admin" class="btn">
+                    <a class="btn secondary" href="../index.php">Back</a>
+                    <a class="btn" href="../account/login.php">Log In</a>
+                </div>
+            </form>
+        </main>
+
+    </div>
 </body>
 </html>
