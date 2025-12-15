@@ -1,0 +1,112 @@
+
+:root{
+	--bg: #f5f7fb;
+	--card: #ffffff;
+	--muted: #6b7280;
+	--accent: #1e90ff; /* dodger blue */
+	--accent-600: #1977d6;
+	--danger: #ef4444;
+	--radius: 8px;
+	--shadow: 0 6px 18px rgba(14,30,37,0.08);
+	--max-width: 1100px;
+	--gap: 18px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+	margin:0;
+	font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	background:linear-gradient(180deg,var(--bg),#eef3fb 60%);
+	color:#111827;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	padding:32px 20px;
+}
+
+.app-shell{
+	max-width:var(--max-width);
+	margin:0 auto;
+}
+
+.header{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	gap:var(--gap);
+	margin-bottom:20px;
+}
+.brand{
+	display:flex;align-items:center;gap:12px;
+}
+.brand .logo{
+	width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-600));
+	display:inline-flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px;
+}
+.brand h1{font-size:20px;margin:0}
+.nav-actions{display:flex;gap:10px;align-items:center}
+
+.card{
+	background:var(--card);
+	border-radius:var(--radius);
+	box-shadow:var(--shadow);
+	padding:18px;
+}
+
+.controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:16px}
+.controls .search{flex:1;min-width:220px}
+.controls input[type=search], .controls select, .controls input[type=date], .controls input[type=time], .controls input[type=text]{
+	width:100%;padding:10px 12px;border-radius:8px;border:1px solid #e6e9ef;background:#fbfdff;color:var(--muted);
+}
+
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:8px;border:0;background:var(--accent);color:white;text-decoration:none;cursor:pointer}
+.btn.secondary{background:#f3f4f6;color:#111827;border:1px solid #e6e9ef}
+.btn.danger{background:var(--danger)}
+
+.table-wrapper{overflow:auto;border-radius:8px}
+table{width:100%;border-collapse:collapse;background:transparent}
+table th, table td{padding:10px 12px;text-align:left;border-bottom:1px solid #eef2f7}
+table thead th{background:transparent;color:var(--muted);font-size:13px}
+table tbody tr:hover{background:linear-gradient(90deg,#fbfdff,#f8fbff)}
+table th:nth-child(3),
+table td:nth-child(3){min-width:130px}
+table th:nth-child(4),
+table td:nth-child(4){min-width:160px}
+
+.form-row{margin-bottom:12px}
+label{display:block;margin-bottom:6px;font-size:14px;color:var(--muted)}
+input[type=text], input[type=date], input[type=time], textarea, select{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ef;background:#fff}
+textarea{min-height:120px}
+.error{color:var(--danger);font-size:13px;margin-top:6px}
+
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+
+.grid{display:grid;grid-template-columns:1fr 360px;gap:20px}
+@media (max-width:900px){.grid{grid-template-columns:1fr}}
+
+.thumbnail{width:100px;height:70px;object-fit:cover;border-radius:6px;border:1px solid #e6eefc}
+
+.footer{margin-top:24px;text-align:center;color:var(--muted);font-size:13px}
+
+/* small helpers */
+.muted{color:var(--muted)}
+.pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#f3f6fb;color:var(--muted);font-size:13px}
+
+.container{margin-top:12px}
+
+/* Improve link styles inside buttons */
+button a, .btn a{color:inherit;text-decoration:none}
+
+/* form submit input style fallback */
+input[type=submit]{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;border:0}
+
+/* small table cell for actions */
+.actions-cell a{margin-right:8px;color:var(--accent)}
+
+/* KPI Dashboard */
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:16px;margin-bottom:16px}
+.kpi-card{background:white;padding:20px;border-radius:8px;box-shadow:0 2px 8px rgba(14,30,37,0.06);border-left:4px solid var(--accent)}
+.kpi-label{font-size:13px;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px}
+.kpi-value{font-size:32px;font-weight:700;color:var(--accent)}
+
+
