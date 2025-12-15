@@ -1,0 +1,27 @@
+[2025-11-19 17:28:09] [FAILED] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved
+[2025-11-19 17:31:02] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved
+[2025-11-19 17:43:15] [FAILED] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved
+[2025-11-19 17:43:25] [FAILED] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved
+[2025-11-19 17:44:23] [FAILED] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved
+[2025-11-19 17:46:11] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved
+[2025-11-19 17:59:38] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved
+[2025-11-19 18:42:47] [SAVED] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved | Details: File: C:\xampp\htdocs\Web System pls\blotters/../logs/emails/2025-11-19_18-42-47_73864c62242e52b1c66597b6728ecb3c.eml
+[2025-11-19 18:52:49] [SAVED] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved | Details: File: C:\xampp\htdocs\Web System pls\blotters/../logs/emails/2025-11-19_18-52-49_e3e7975f7dd75ef1d09a110b75f856fe.eml
+[2025-11-19 19:23:48] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved | Details: Sent via PHPMailer Gmail SMTP
+[2025-11-19 19:38:47] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Your Blotter Case #31 Has Been Resolved | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 06:58:12] [SENT] To: dixontrumatajr@gmail.com | Subject: Case Resolved - Blotter #32 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 07:22:55] [SENT] To: jeoffnikko@gmail.com | Subject: Case Status Update - Blotter #33 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 07:25:28] [SENT] To: jeoffnikko@gmail.com | Subject: Case Resolved - Blotter #33 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 07:29:29] [SENT] To: jeoffnikko@gmail.com | Subject: Case Status Update - Blotter #33 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 07:34:19] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Case Status Update - Blotter #31 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 07:56:12] [SENT] To: jeoffnikko@gmail.com | Subject: Case Status Update - Blotter #33 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 08:00:53] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Case Status Update - Blotter #31 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 09:42:01] [SENT] To: sailelaprincessshairamae@gmail.com | Subject: Case Status Update - Blotter #5 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 09:48:56] [SENT] To: jeoffnikko@gmail.com | Subject: Case Status Update - Blotter #6 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 09:51:42] [SENT] To: sailelaprincessshairamae@gmail.com | Subject: Case Status Update - Blotter #5 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 09:57:13] [SENT] To: jeoffnikko@gmail.com | Subject: Case Received and Recorded - Blotter #7 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 10:01:31] [SENT] To: jeoffnikko@gmail.com | Subject: Case Status Update - Blotter #7 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 11:51:09] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Case Received and Recorded - Blotter #8 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 12:29:32] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Case Status Update - Blotter #8 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 12:35:51] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Case Status Update - Blotter #8 | Details: Sent via PHPMailer Gmail SMTP
+[2025-12-14 12:38:48] [SENT] To: ricafort.rutherford2023@gmail.com | Subject: Case Received and Recorded - Blotter #9 | Details: Sent via PHPMailer Gmail SMTP
